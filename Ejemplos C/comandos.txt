@@ -1,0 +1,15 @@
+#Para leer .elf
+riscv64-linux-gnu-readelf -s archivo.elf
+
+#Para leer .bin
+hexdump -C archivo.bin
+
+#Para crear la tabla 
+
+# Desensamblar el .bin como RV32 (sin cabeceras ELF)
+riscv64-linux-gnu-objdump -D -b binary -m riscv:rv32 archivo.bin | less
+
+# O directamente del ELF (recomendado)
+riscv64-linux-gnu-objdump -d archivo.elf | less
+
+

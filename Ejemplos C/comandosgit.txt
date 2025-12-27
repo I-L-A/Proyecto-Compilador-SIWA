@@ -1,0 +1,62 @@
+===============================
+GUÍA DE COMANDOS GIT BÁSICOS
+===============================
+
+# CONFIGURACIÓN INICIAL
+git config --global user.name "Tu Nombre"     # Define tu nombre de usuario global.
+git config --global user.email "tuemail@example.com"  # Define tu correo electrónico global.
+git config --list                            # Muestra toda la configuración actual de Git.
+git init                                     # Crea un nuevo repositorio local.
+git clone <URL>                              # Clona un repositorio remoto.
+
+# ESTADOS Y ARCHIVOS
+git status                                   # Muestra el estado actual del repositorio.
+git add <archivo>                            # Añade un archivo al área de preparación (staging area).
+git add .                                    # Añade todos los archivos modificados.
+git rm --cached <archivo>                    # Quita un archivo del staging area (sin borrarlo).
+git diff                                     # Muestra los cambios pendientes antes de hacer commit.
+
+# COMMITS
+git commit -m "mensaje"                      # Guarda los cambios con un mensaje.
+git commit -am "mensaje"                     # Añade y hace commit de todos los archivos modificados.
+git log                                      # Muestra el historial de commits.
+git show <hash>                              # Muestra detalles de un commit específico.
+git blame <archivo>                          # Muestra qué commit y autor modificó cada línea.
+
+# RAMAS (BRANCHES)
+git branch                                   # Lista las ramas existentes.
+git branch <nombre>                          # Crea una nueva rama.
+git checkout <nombre>                        # Cambia a otra rama.
+git checkout -b <nombre>                     # Crea y cambia a una nueva rama.
+git merge <rama>                             # Fusiona una rama en la actual.
+git branch -d <rama>                         # Elimina una rama local.
+
+# REPOSITORIOS REMOTOS
+git remote -v                                # Muestra los repositorios remotos configurados.
+git remote add origin <URL>                  # Vincula el repositorio local con uno remoto.
+git push -u origin main                      # Envía los commits locales al remoto (rama main).
+git push                                     # Sube los cambios al repositorio remoto.
+git pull                                     # Descarga y fusiona los cambios del remoto.
+git fetch                                    # Descarga los cambios sin fusionarlos.
+
+# CORRECCIONES Y MANTENIMIENTO
+git restore <archivo>                        # Revierte cambios no guardados.
+git reset <archivo>                          # Saca un archivo del staging area.
+git reset --hard HEAD                        # Revierte todos los cambios al último commit.
+git revert <hash>                            # Crea un commit que revierte otro commit.
+git stash                                    # Guarda temporalmente los cambios sin commit.
+git stash pop                                # Recupera los cambios guardados con stash.
+
+# INFORMACIÓN Y ETIQUETAS
+git shortlog                                 # Muestra un resumen de commits por autor.
+git tag                                      # Lista etiquetas.
+git tag <nombre>                             # Crea una nueva etiqueta.
+git describe                                 # Muestra el último tag y commits posteriores.
+
+# FLUJO DE TRABAJO TÍPICO
+git init                       # Inicializar repositorio
+git add .                      # Agregar todos los cambios
+git commit -m "Primer commit"  # Guardar versión
+git branch -M main             # Asegurar que la rama se llama main
+git remote add origin <URL>    # Conectar con repositorio remoto
+git push -u origin main        # Subir el proyecto
