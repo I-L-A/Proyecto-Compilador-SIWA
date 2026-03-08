@@ -3,7 +3,7 @@
 
 """
 SIWA ERRORES GUI — TEC-RISC-V (RV32I)
-Autor: Iván + ChatGPT
+Autor: Iván 
 Descripción: GUI para analizar código C y generar .s, .elf, .hex y .bin para TEC-RISC-V (RV32I)
 Requisitos:
   - Python 3.x
