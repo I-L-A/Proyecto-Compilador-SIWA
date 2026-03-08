@@ -82,7 +82,7 @@ def exists_in_path(exe: str) -> bool:
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("SIWA ERRORES GUI — TEC-RISC-V")
+        self.title("SIWA TOOLCAHIN GUI — TEC-RISC-V")
         self.geometry("880x700")
 
         # Estado
