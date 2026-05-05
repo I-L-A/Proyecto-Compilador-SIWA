@@ -1,0 +1,189 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto f638f331f1df4dd3a295a49b44d052f3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot siwa_test_tb_behav xil_defaultlib.siwa_test_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'mode' [D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/top_SIWA_test.sv:64]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../TOP/TecRiscv_top_CPU.sv" Line 25. Module top_CPU_riscv doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../TOP/control.sv" Line 2. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../FIFO_Latches/fifo.sv" Line 6. Module dff_async_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../FIFO_Latches/fifo.sv" Line 6. Module dff_async_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../FIFO_Latches/fifo.sv" Line 6. Module dff_async_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../FIFO_Latches/fifo.sv" Line 6. Module dff_async_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../FIFO_Latches/fifo.sv" Line 6. Module dff_async_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../FIFO_Latches/fifo.sv" Line 6. Module dff_async_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../FIFO_Latches/fifo.sv" Line 6. Module dff_async_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../FIFO_Latches/fifo.sv" Line 6. Module dff_async_rst doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../TOP/fpga_8KB_mem_model.sv" Line 3. Module fpga_8KB_mem_model doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../MBC/MBC.sv" Line 2. Module mbc(max=13) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../MBC/MBC.sv" Line 560. Module mux_rd doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../DECO_INSTR/DECO_INSTR.sv" Line 61. Module DECO_INSTR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_2.sv" Line 22. Module ALU_2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 170. Module CSK_sin_mux_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 154. Module csk_bloque doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 154. Module csk_bloque doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 154. Module csk_bloque doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 154. Module csk_bloque doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 154. Module csk_bloque doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 154. Module csk_bloque doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 154. Module csk_bloque doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 154. Module csk_bloque doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 2. Module Barrel_Shifter_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../ALU/ALU_Library.sv" Line 144. Module tristate_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Banco_de_registros_latches.v" Line 4. Module Banco_registros_latches_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 557. Module Reg_32_bit_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 190. Module Decodificador(width=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 190. Module Decodificador(width=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 190. Module Decodificador(width=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../TEC_RISCV/Register_File/../Register_File/Biblioteca.v" Line 67. Module latchtriestado doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pxi_spi_memory
+Compiling module xil_defaultlib.spi_ifc
+Compiling module xil_defaultlib.edge_detection
+Compiling module xil_defaultlib.PI_SO_shift_register
+Compiling module xil_defaultlib.SI_PO_shift_register
+Compiling module xil_defaultlib.spi_counter(BITS=6,CHECK_VALUE=3...
+Compiling module xil_defaultlib.spi_counter(BITS=3,CHECK_VALUE=6...
+Compiling module xil_defaultlib.spi_counter(BITS=2)
+Compiling module xil_defaultlib.read_check_comb
+Compiling module xil_defaultlib.addr_calc_comb
+Compiling module xil_defaultlib.hold_reg
+Compiling module xil_defaultlib.pxi_siwa_ifc
+Compiling module xil_defaultlib.dff_async_rst
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.fpga_8KB_mem_model
+Compiling module xil_defaultlib.mux_rd
+Compiling module xil_defaultlib.mbc(max=13)
+Compiling module xil_defaultlib.DECO_INSTR
+Compiling module xil_defaultlib.csk_bloque
+Compiling module xil_defaultlib.CSK_sin_mux_default
+Compiling module xil_defaultlib.tristate_buffer
+Compiling module xil_defaultlib.Barrel_Shifter_default
+Compiling module xil_defaultlib.ALU_2
+Compiling module xil_defaultlib.Decodificador(width=32)
+Compiling module xil_defaultlib.latchtriestado
+Compiling module xil_defaultlib.tristategate
+Compiling module xil_defaultlib.Reg_32_bit_default
+Compiling module xil_defaultlib.Decodificador(width=12)
+Compiling module xil_defaultlib.latch
+Compiling module xil_defaultlib.latch_tri_rst0_Hard
+Compiling module xil_defaultlib.latch_rst1
+Compiling module xil_defaultlib.latch_tri_rst1_Hard
+Compiling module xil_defaultlib.latch_tri_estado
+Compiling module xil_defaultlib.csr_file_default
+Compiling module xil_defaultlib.latch_entrada
+Compiling module xil_defaultlib.Banco_registros_latches_default
+Compiling module xil_defaultlib.prll_d_reg(bits=65)
+Compiling module xil_defaultlib.Counter_arb(mx_cnt=3)
+Compiling module xil_defaultlib.Arbiter_st_Mchn
+Compiling module xil_defaultlib.prll_wt_st_mchn
+Compiling module xil_defaultlib.prll_rd_st_mchn
+Compiling module xil_defaultlib.tri_buf
+Compiling module xil_defaultlib.prll_intrfs_cntrl_riscv(bdcst=3'...
+Compiling module xil_defaultlib.prll_bs_ntrfs_riscv(drvrs=3,bits...
+Compiling module xil_defaultlib.prll_intrfs_cntrl_riscv(id=1,bdc...
+Compiling module xil_defaultlib.prll_bs_ntrfs_riscv(drvrs=3,bits...
+Compiling module xil_defaultlib.prll_intrfs_cntrl_riscv(id=2,bdc...
+Compiling module xil_defaultlib.prll_bs_ntrfs_riscv(drvrs=3,bits...
+Compiling module xil_defaultlib.fifo_flops_no_full(depth=3,bits=...
+Compiling module xil_defaultlib.fifo_flops_no_full(depth=2,bits=...
+Compiling module xil_defaultlib.tec_riscv_bus
+Compiling module xil_defaultlib.Timer
+Compiling module xil_defaultlib.top_CPU_riscv
+Compiling module xil_defaultlib.spi
+Compiling module xil_defaultlib.top_spi_default
+Compiling module xil_defaultlib.baud(BAUD=19200,CLK_DIV=32)
+Compiling module xil_defaultlib.detector_flanco
+Compiling module xil_defaultlib.dff_async_rsta
+Compiling module xil_defaultlib.prll_d_rega(bits=8)
+Compiling module xil_defaultlib.fifo_to_uart_reg_default
+Compiling module xil_defaultlib.log_ftu_default
+Compiling module xil_defaultlib.u_xmit
+Compiling module xil_defaultlib.u_rec
+Compiling module xil_defaultlib.log_utf
+Compiling module xil_defaultlib.dff_async_rst_ena
+Compiling module xil_defaultlib.prll_d_reg_ena(bits=8)
+Compiling module xil_defaultlib.uart_to_fifo_reg_default
+Compiling module xil_defaultlib.uart_default
+Compiling module xil_defaultlib.topcore_tecriscv
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.5,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.top_SIWA_test
+Compiling module xil_defaultlib.siwa_test_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot siwa_test_tb_behav

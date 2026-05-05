@@ -1,0 +1,114 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Wrapper_PC_SIWA_IFC_ver1.0.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Wrapper_PC_SIWA_IFC_ver1.0.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/TEC_RISCV/TOP/topcore_tecriscv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff_async_rst
+INFO: [VRFC 10-311] analyzing module dltch_async_rst
+INFO: [VRFC 10-311] analyzing module dltch
+INFO: [VRFC 10-311] analyzing module prll_d_reg
+INFO: [VRFC 10-311] analyzing module prll_d_ltch_no_rst
+INFO: [VRFC 10-311] analyzing module prll_d_ltch
+INFO: [VRFC 10-311] analyzing module pos_edge
+INFO: [VRFC 10-311] analyzing module neg_edge
+INFO: [VRFC 10-311] analyzing module fifo_flops
+INFO: [VRFC 10-311] analyzing module fifo_flops_no_full
+INFO: [VRFC 10-311] analyzing module fifo_ltch
+INFO: [VRFC 10-311] analyzing module fifo_ltch_no_rst
+INFO: [VRFC 10-311] analyzing module rst_lgc
+INFO: [VRFC 10-311] analyzing module ntrpt_cam_fifo
+INFO: [VRFC 10-311] analyzing module mem_latch
+INFO: [VRFC 10-311] analyzing module tri_buf
+INFO: [VRFC 10-311] analyzing module parallel_serial
+INFO: [VRFC 10-311] analyzing module serializer
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-311] analyzing module Read_st_Mchn
+INFO: [VRFC 10-311] analyzing module Write_st_Mchn
+INFO: [VRFC 10-311] analyzing module ntrfs_cntrl
+INFO: [VRFC 10-311] analyzing module bs_ntrfs
+INFO: [VRFC 10-311] analyzing module Counter_arb
+INFO: [VRFC 10-311] analyzing module Arbiter
+INFO: [VRFC 10-311] analyzing module Arbiter_st_Mchn
+INFO: [VRFC 10-311] analyzing module ntrfs_cntrl_n_rbtr
+INFO: [VRFC 10-311] analyzing module bs_ntrfs_n_rbtr
+INFO: [VRFC 10-311] analyzing module prll_rgstr
+INFO: [VRFC 10-311] analyzing module prll_rd_st_mchn
+INFO: [VRFC 10-311] analyzing module prll_wt_st_mchn
+INFO: [VRFC 10-311] analyzing module prll_intrfs_cntrl
+INFO: [VRFC 10-311] analyzing module prll_bs_ntrfs
+INFO: [VRFC 10-311] analyzing module prll_intrfs_cntrl_riscv
+INFO: [VRFC 10-311] analyzing module prll_bs_ntrfs_riscv
+INFO: [VRFC 10-311] analyzing module tec_riscv_bus
+INFO: [VRFC 10-311] analyzing module DECO_INSTR
+INFO: [VRFC 10-311] analyzing module Barrel_Shifter
+INFO: [VRFC 10-311] analyzing module tristate_buffer
+INFO: [VRFC 10-311] analyzing module csk_bloque
+INFO: [VRFC 10-311] analyzing module CSK_sin_mux
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module ALU_2
+INFO: [VRFC 10-311] analyzing module latch
+INFO: [VRFC 10-311] analyzing module latch_rst1
+INFO: [VRFC 10-311] analyzing module tristategate
+INFO: [VRFC 10-311] analyzing module tristategate_negado
+INFO: [VRFC 10-311] analyzing module latchtriestado
+INFO: [VRFC 10-311] analyzing module latch_tri_estado
+INFO: [VRFC 10-311] analyzing module latch_tri_rst0_Hard
+INFO: [VRFC 10-311] analyzing module latch_tri_rst1_Hard
+INFO: [VRFC 10-311] analyzing module Decodificador
+INFO: [VRFC 10-311] analyzing module csr_file
+INFO: [VRFC 10-311] analyzing module Reg_32_bit
+INFO: [VRFC 10-311] analyzing module Banco_registros_latches
+INFO: [VRFC 10-311] analyzing module latch_entrada
+INFO: [VRFC 10-311] analyzing module mbc
+INFO: [VRFC 10-2458] undeclared symbol ld_d_read_clk, assumed default net type wire [../../../../../../TEC_RISCV/Register_File/../MBC/MBC.sv:180]
+INFO: [VRFC 10-311] analyzing module mux_rd
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module fpga_8KB_mem_model
+INFO: [VRFC 10-311] analyzing module Timer
+INFO: [VRFC 10-311] analyzing module top_CPU_riscv
+INFO: [VRFC 10-2458] undeclared symbol csr_write, assumed default net type wire [../../../../../../TEC_RISCV/Register_File/../TOP/TecRiscv_top_CPU.sv:168]
+INFO: [VRFC 10-2458] undeclared symbol rst_tmr, assumed default net type wire [../../../../../../TEC_RISCV/Register_File/../TOP/TecRiscv_top_CPU.sv:169]
+INFO: [VRFC 10-2458] undeclared symbol clk_bus, assumed default net type wire [../../../../../../TEC_RISCV/Register_File/../TOP/TecRiscv_top_CPU.sv:280]
+INFO: [VRFC 10-2458] undeclared symbol clk_timer, assumed default net type wire [../../../../../../TEC_RISCV/Register_File/../TOP/TecRiscv_top_CPU.sv:308]
+INFO: [VRFC 10-311] analyzing module spi
+INFO: [VRFC 10-311] analyzing module top_spi
+INFO: [VRFC 10-311] analyzing module baud
+INFO: [VRFC 10-311] analyzing module detector_flanco
+INFO: [VRFC 10-311] analyzing module dff_async_rsta
+INFO: [VRFC 10-311] analyzing module prll_d_rega
+INFO: [VRFC 10-311] analyzing module fifo_to_uart_reg
+INFO: [VRFC 10-311] analyzing module log_ftu
+INFO: [VRFC 10-311] analyzing module log_utf
+INFO: [VRFC 10-311] analyzing module prll_d_reg_ena
+INFO: [VRFC 10-311] analyzing module dff_async_rst_ena
+INFO: [VRFC 10-311] analyzing module uart_to_fifo_reg
+INFO: [VRFC 10-311] analyzing module u_rec
+INFO: [VRFC 10-311] analyzing module u_xmit
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-311] analyzing module topcore_tecriscv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/PI_SO_shift_register.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PI_SO_shift_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/SI_PO_shift_register.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SI_PO_shift_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/addr_calc_comb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_calc_comb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/edge_detection.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_detection
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/hold_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hold_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/pxi_spi_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pxi_spi_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/read_check_comb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_check_comb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/spi_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/spi_ifc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_ifc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/pxi_siwa_ifc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pxi_siwa_ifc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/top_SIWA_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_SIWA_test
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Sources/siwa_test_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module siwa_test_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/respaldo/Xilinx Projects/Wrapper_PC_SIWA_IFC_ver1.0/Wrapper_PC_SIWA_IFC_ver1.0.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

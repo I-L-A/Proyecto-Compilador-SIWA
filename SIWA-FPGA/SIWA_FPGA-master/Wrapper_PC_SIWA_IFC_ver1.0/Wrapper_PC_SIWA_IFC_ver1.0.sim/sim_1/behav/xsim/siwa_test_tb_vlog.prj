@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Wrapper_PC_SIWA_IFC_ver1.0.srcs/sources_1/ip/clk_wiz_0" --include "../../../../../../TEC_RISCV/Register_File" --include "../../../../../../TEC_RISCV/TOP" --include "../../../../../../TEC_RISCV/BUS_Micro" --include "../../../../../../TEC_RISCV/FIFO_Latches" --include "../../../../../../TEC_RISCV/SPI" --include "../../../../../../TEC_RISCV/ALU" --include "../../../../../../TEC_RISCV/DECO_INSTR" --include "../../../../../../TEC_RISCV/MBC" --include "../../../../../../TEC_RISCV/UART/scrs" \
+"../../../../Wrapper_PC_SIWA_IFC_ver1.0.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../Wrapper_PC_SIWA_IFC_ver1.0.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+
+sv xil_defaultlib  --include "../../../../Wrapper_PC_SIWA_IFC_ver1.0.srcs/sources_1/ip/clk_wiz_0" --include "../../../../../../TEC_RISCV/Register_File" --include "../../../../../../TEC_RISCV/TOP" --include "../../../../../../TEC_RISCV/BUS_Micro" --include "../../../../../../TEC_RISCV/FIFO_Latches" --include "../../../../../../TEC_RISCV/SPI" --include "../../../../../../TEC_RISCV/ALU" --include "../../../../../../TEC_RISCV/DECO_INSTR" --include "../../../../../../TEC_RISCV/MBC" --include "../../../../../../TEC_RISCV/UART/scrs" \
+"../../../../../../TEC_RISCV/TOP/topcore_tecriscv.sv" \
+"../../../../Sources/PI_SO_shift_register.sv" \
+"../../../../Sources/SI_PO_shift_register.sv" \
+"../../../../Sources/addr_calc_comb.sv" \
+"../../../../Sources/edge_detection.sv" \
+"../../../../Sources/hold_reg.sv" \
+"../../../../Sources/pxi_spi_memory.sv" \
+"../../../../Sources/read_check_comb.sv" \
+"../../../../Sources/spi_counter.sv" \
+"../../../../Sources/spi_ifc.sv" \
+"../../../../Sources/pxi_siwa_ifc.sv" \
+"../../../../Sources/top_SIWA_test.sv" \
+"../../../../Sources/siwa_test_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
